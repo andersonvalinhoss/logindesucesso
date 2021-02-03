@@ -1,0 +1,196 @@
+
+
+
+  @import url(https://fonts.googleapis.com/css?family=Kalam&display=swap);
+  @import url(https://fonts.googleapis.com/css?family=Jura&display=swap);
+  @import url(https://fonts.googleapis.com/css?family=Khula&display=swap);
+
+
+
+   body#aparencia {
+    background-image: url("../img/cobra.jpg");
+    background-position:relative;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+  }
+
+   header#cabecalho h1{
+
+     font-family: 'Kalam', cursive;
+     color:rgb(104, 108, 108);
+     font-size: 50px;
+     display:
+
+  }
+   header#cabecalho h2{
+     font-family: 'Jura', sans-serif;
+     font-size: 30px;
+     color:rgb(104, 108, 108);
+
+  }
+   img#logo{
+     background-repeat: no-repeat;
+     width: 100%;
+
+
+   }
+  
+  }
+   header#cabecalho{
+     padding: 20px;
+     margin: 10px;
+
+   }
+   div#interface{
+     width: 1050px;
+     margin: 10px auto 10px auto;
+     background-color: rgb(174, 182, 22);
+     padding: 10px;
+
+   }
+
+  p   {text-align:left;
+    text-indent: 50px;
+
+  }
+  figure.foto-legenda {
+    position:relative;
+
+  }
+  figure.foto-legenda img {
+    border:2px solid rgb(38, 53, 54);
+    box-shadow: 40px 40px 100px black;
+    width: 100% ;
+    height: 100% ;
+  }
+
+  figure.foto-legenda figcaption {
+    position:absolute ;
+    width: 30%;
+    height: 20%;
+  	top:0px;
+    right: 12px;
+    color: white;
+   padding: 5px;
+    }
+    nav#menu {
+      display: block;
+
+    }
+    nav#menu h2 { /* google glass, slogam*/
+      display:none;
+    }
+    nav#menu ul{
+      list-style:none;
+      text-transform:uppercase;
+      top:5%;
+      left: 50%;
+      position:absolute;
+    }
+    nav#menu li{
+      display:inline-block;
+      padding: 8px;
+      margin: 4px;
+      background-color:  rgb(131, 128, 38);
+        }
+        nav#menu li:hover{
+          background-color: rgb(223, 0, 0);
+          transition:background-color 5s;
+        }
+        nav#menu a{
+          text-decoration: none;
+          font-family: 'Khula', sans-serif;
+          color: rgb(195, 174, 174);
+
+        }
+   section#corpo{
+    float:left;
+    width:500px;
+    padding: 10px;
+    margin: 6px auto 6px auto;
+    display: block;
+    text-align: center;
+
+
+}
+   aside#lateral{
+     float: right;
+     width:500px;
+     padding: 10px;
+     margin: 6px auto 6px auto;
+     display: block;
+     text-align: center;
+     border-left:  2px solid black;
+
+   }
+        footer#rodape{
+          text-align: center;
+          padding-top: 4px;
+          clear: both;
+          border-top: 2px solid black;
+          padding: 2px;
+  }
+     iframe#video{
+       clear: both;
+       display: block;
+      left:35%;
+       position: relative;
+       margin-bottom: 5px;
+       border:2px solid rgb(38, 53, 54);
+
+     }
+     iframe#video1{
+       clear: both;
+       display: block;
+       position: relative;
+       margin: auto;
+       margin-top: 20px;
+       border:2px solid rgb(38, 53, 54);
+     }
+      hr{
+        text-align: center;
+        width: 1000px;
+         top:105px ;
+         position:relative;
+        border-color: black;
+         box-shadow: 2px 2px 4px black;
+      }
+
+      img.especie{
+        position: relative;
+        width: 360px;
+        height:330px;
+        padding: 1px;
+        margin: 2px auto 2px auto;
+        box-shadow: 2px 2px 5px black;
+      }
+
+
+      table.tabela{
+        border:1px solid #473a5b;
+        border-spacing: 1px;
+        margin-left: auto;
+        margin-right: auto;
+
+      }
+      table.tabela td{
+        border:1px solid #63714b;
+        padding: 4px;
+        vertical-align: middle;
+        text-align:center;
+      }
+
+      table.tabela td.ce{
+        color:white;
+        background-color:#b2afc1;
+        vertical-align: top;
+        font-weight: bold;
+        text-align:right;
+
+      }
+      table.tabela td.cd{
+        color: white;
+        background-color:#595652;
+        font-weight: lighter;
+      }

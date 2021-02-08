@@ -34,6 +34,6 @@ if (!isset($_SESSION["username"]))
 
      ?>
     </div>
-     <iframe src="clone.html" title="W3Schools Free Online Web Tutorials"></iframe>
+
   </body>
 </html>
